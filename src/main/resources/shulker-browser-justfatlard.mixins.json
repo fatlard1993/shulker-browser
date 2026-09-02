@@ -1,0 +1,11 @@
+{
+  "required": true,
+  "package": "justfatlard.shulker_browser.mixin",
+  "compatibilityLevel": "JAVA_25",
+  "mixins": [
+    "ShulkerClickMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
