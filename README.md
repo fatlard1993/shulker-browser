@@ -34,6 +34,8 @@ with the shulker's own items in it, and every click is one vanilla already knows
 - **Written back on every change**, not on close. A screen can end without closing - a disconnect, a
   crash, a server going down - and a shulker that quietly forgot the last thing you put in it is
   worse than one you could not open at all.
+- **Any open screen's slots**, not only your own pack's: a box sitting in an open chest opens the same
+  way, and stays in the chest.
 - **No box inside a box.** Vanilla's rule, kept: the contents of an inner box stop being visible to
   anything looking at the outer one.
 - **With [Chest Utils](https://github.com/fatlard1993/chest-utils) installed**, boxes open on its
