@@ -1,0 +1,10 @@
+{
+  "overview": [
+    "Right-click a shulker box in your inventory and its contents open where it sits. The box never leaves your pack."
+  ],
+  "versions": {
+    "1.0.0": [
+      "A shulker box opens on a chest screen from the slots of any screen you have open. Take things out, put things in, close it."
+    ]
+  }
+}
