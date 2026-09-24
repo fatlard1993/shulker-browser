@@ -4,7 +4,8 @@
   ],
   "versions": {
     "1.0.0": [
-      "A shulker box opens on a chest screen from the slots of any screen you have open. Take things out, put things in, close it."
+      "A shulker box opens on a chest screen from the slots of any screen you have open.",
+      "Take things out, put things in, close it."
     ]
   }
 }
