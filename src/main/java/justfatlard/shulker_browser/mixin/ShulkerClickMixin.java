@@ -49,8 +49,10 @@ public abstract class ShulkerClickMixin {
 
 		// Queued rather than opened here. Opening a menu closes the one this click arrived on,
 		// and tearing that down from inside its own click handler is asking the menu to finish
-		// reading a message it has already been told to forget.
-		opener.level().getServer().execute(() -> ShulkerBrowser.open(opener, stack));
+		// reading a message it has already been told to forget. Scheduled, not executed: the click
+		// arrives on the server thread, where execute would open it right here after all.
+		net.minecraft.server.MinecraftServer server = opener.level().getServer();
+		server.schedule(new net.minecraft.server.TickTask(server.getTickCount(), () -> ShulkerBrowser.open(opener, stack)));
 		ci.cancel();
 	}
 }
