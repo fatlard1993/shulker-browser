@@ -1,0 +1,46 @@
+{
+  "demo": {
+    "name": "Shulker Browser",
+    "icon": "minecraft:purple_shulker_box",
+    "about": [
+      "Open a shulker box right where it sits in your inventory, without placing it down.",
+      "Open your inventory and right-click a shulker box with an empty hand: take things out, put things in. Put one in a chest and it opens from there too."
+    ]
+  },
+  "pvp_preset": 1,
+  "needs": ["shulker-browser-justfatlard"],
+  "preset": {
+    "name": "Shulker Browser",
+    "icon": "minecraft:purple_shulker_box",
+    "pvp": false,
+    "game_mode": "survival",
+    "entry_kit": [
+      {"slot": 0, "item": {"id": "minecraft:iron_pickaxe", "count": 1}},
+      {"slot": 1, "item": {"id": "minecraft:chest", "count": 2}},
+      {"slot": 2, "item": {"id": "minecraft:cooked_beef", "count": 8}},
+      {"slot": 9, "item": {"id": "minecraft:purple_shulker_box", "count": 1, "components": {"minecraft:container": [
+        {"slot": 0, "item": {"id": "minecraft:cobblestone", "count": 64}},
+        {"slot": 1, "item": {"id": "minecraft:oak_planks", "count": 64}},
+        {"slot": 2, "item": {"id": "minecraft:torch", "count": 32}},
+        {"slot": 3, "item": {"id": "minecraft:glass", "count": 32}},
+        {"slot": 4, "item": {"id": "minecraft:bread", "count": 16}}
+      ]}}},
+      {"slot": 10, "item": {"id": "minecraft:lime_shulker_box", "count": 1, "components": {"minecraft:container": [
+        {"slot": 0, "item": {"id": "minecraft:diamond", "count": 8}},
+        {"slot": 1, "item": {"id": "minecraft:emerald", "count": 16}},
+        {"slot": 2, "item": {"id": "minecraft:gold_ingot", "count": 24}},
+        {"slot": 13, "item": {"id": "minecraft:golden_apple", "count": 2}}
+      ]}}},
+      {"slot": 11, "item": {"id": "minecraft:white_shulker_box", "count": 1}}
+    ],
+    "respawn_kit": "entry",
+    "goal": "time",
+    "mobs": "off",
+    "life": 15,
+    "size": 2,
+    "world": "overworld",
+    "shape": "flat",
+    "biome": "minecraft:plains",
+    "weather": "clear"
+  }
+}
