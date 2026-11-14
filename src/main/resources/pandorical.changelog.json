@@ -3,6 +3,10 @@
     "Right-click a shulker box in your inventory and its contents open where it sits. The box never leaves your pack."
   ],
   "versions": {
+    "1.0.4": [
+      "A shulker box opens after the click that asked for it, not inside it.",
+      "A demo to play in PvP Dimensions' onboarding."
+    ],
     "1.0.3": [
       "Drop changelog notes for changes nothing in the game shows."
     ],
